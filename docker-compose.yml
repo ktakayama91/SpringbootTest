@@ -1,0 +1,8 @@
+version: '2'
+services:
+  backend:
+    image: local-hello-world:latest
+    build:
+      context: .
+    ports:
+      - "8080:8080"
