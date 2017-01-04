@@ -1,7 +1,7 @@
 version: '2'
 services:
   backend:
-    image: local-hello-world:latest
+    image: local-spring-boot-test:latest
     build:
       context: .
     ports:
